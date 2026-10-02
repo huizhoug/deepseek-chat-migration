@@ -1,0 +1,29 @@
+[
+  {
+    "id": "synthetic-branch-example",
+    "title": "合成测试：两个回答分支",
+    "inserted_at": "2026-01-01T00:00:00Z",
+    "updated_at": "2026-01-01T00:02:00Z",
+    "mapping": {
+      "answer-b": {
+        "id": "answer-b",
+        "parent": "question",
+        "children": [],
+        "message": { "inserted_at": "2026-01-01T00:02:00Z", "fragments": [{ "type": "RESPONSE", "content": "合成回答 B" }] }
+      },
+      "question": {
+        "id": "question",
+        "parent": "root",
+        "children": ["answer-a", "answer-b"],
+        "message": { "inserted_at": "2026-01-01T00:00:00Z", "fragments": [{ "type": "REQUEST", "content": "这是合成测试问题。" }] }
+      },
+      "root": { "id": "root", "parent": null, "children": ["question"], "message": null },
+      "answer-a": {
+        "id": "answer-a",
+        "parent": "question",
+        "children": [],
+        "message": { "inserted_at": "2026-01-01T00:01:00Z", "fragments": [{ "type": "RESPONSE", "content": "合成回答 A" }] }
+      }
+    }
+  }
+]
