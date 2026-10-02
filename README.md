@@ -4,9 +4,7 @@
 
 这是社区开发的第三方插件，与 DeepSeek 官方没有隶属关系。
 
-## 下载
-
-普通用户请到 [Releases 下载页面](https://github.com/huizhoug/deepseek-chat-migration/releases/latest)，下载 `deepseek-chat-migration-1.0.2.tgz` 安装包，**不要解压**。GitHub 自动提供的 `Source code (zip)` 是开发源码，不是可直接安装的插件包。
+本仓库提供插件源码。GitHub 的 `Code → Download ZIP` 下载的是开发源码，不是可直接安装的插件包。已有安装包的用户可按下面步骤安装；开发者可按「开发与验证」部分自行构建安装包。
 
 ## 安装与使用
 
