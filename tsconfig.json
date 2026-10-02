@@ -1,0 +1,1 @@
+{"compilerOptions":{"target":"ES2023","module":"NodeNext","moduleResolution":"NodeNext","strict":true,"jsx":"react-jsx","esModuleInterop":true,"skipLibCheck":true,"noEmit":true,"types":["node"],"allowImportingTsExtensions":true},"include":["src","test"]}

@@ -1,0 +1,22 @@
+{
+  "extends": "./tsconfig.json",
+  "include": [
+    "src/types.ts",
+    "src/archive.ts",
+    "src/harness.ts",
+    "src/engine.ts",
+    "src/http.ts",
+    "src/index.ts",
+    "test/archive.test.ts",
+    "test/harness.test.ts",
+    "test/engine.test.ts",
+    "test/http.test.ts",
+    "test/projection-cache.test.ts",
+    "src/session-cleanup.ts",
+    "test/session-cleanup.test.ts"
+  ],
+  "exclude": [
+    "src/client.tsx",
+    "test/client.test.tsx"
+  ]
+}

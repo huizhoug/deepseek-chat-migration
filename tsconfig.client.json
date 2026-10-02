@@ -1,0 +1,1 @@
+{"extends":"./tsconfig.json","include":["src/types.ts","src/client.tsx","src/locales.ts","src/assets.d.ts","test/client.test.tsx"],"exclude":["src/index.ts","src/harness.ts"]}

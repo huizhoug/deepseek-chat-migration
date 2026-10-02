@@ -1,0 +1,10 @@
+node_modules/
+lib/
+dist/
+test-results/
+.migration-data/
+video/
+.DS_Store
+.env
+.env.*
+!.env.example

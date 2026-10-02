@@ -1,0 +1,3 @@
+- insert:
+    - id: deepseek-chat-migration
+      name: deepseek-chat-migration
